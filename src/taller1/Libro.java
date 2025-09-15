@@ -24,12 +24,7 @@ public Libro()   {
 public Libro (String titulo,String autor, int numeroPaginas ){ 
     this.titulo = titulo ;
     this.autor = autor;
-    
- if (numeroPaginas >= 0){ 
     this.numeroPaginas = numeroPaginas;
-}else {
-        this.numeroPaginas = 0;
-    }
       
 }
  public void mostrarDetalles(){

@@ -34,9 +34,9 @@ public class Taller1 {
         System.out.println("Ingrese titulo del libro:");
         String titulo = scanner.nextLine(); 
         
-        System.out.println("El titulo del libro 2 es:" + libro2.toString());
-        System.out.println("El autor es: " + libro2.toString());
-        System.out.println("Su numero de paginas es: " + libro2.toString());
+        System.out.println("El titulo del libro 2 es:" + libro2.getTitulo());
+        System.out.println("El autor es: " + libro2.getAutor());
+        System.out.println("Su numero de paginas es: " + libro2.getNumeroPaginas());
         
         System.out.println("Ingrese el numero de cuenta:");
         int numeroCuenta = scanner.nextInt();
